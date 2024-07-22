@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea/hook-playground.iml
+
+.idea/inspectionProfiles/Project_Default.xml
+
+.idea/jsLinters/eslint.xml
+
+.idea/modules.xml
+
+.idea/vcs.xml

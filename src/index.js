@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import App_useLayoutEffect from "./hook_example/App_useLayoutEffect";
 import App_useId from "./hook_example/App_useId";
+import App_useRef_1 from "./hook_example/App_useRef_1";
+import App_useRef_2 from "./hook_example/App_useRef_2";
+import App_useRef_3 from "./hook_example/App_useRef_3";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         {/*<App_useLayoutEffect/>*/}
-        <App_useId/>
+        <App_useRef_3/>
     </React.StrictMode>
 );
 
