@@ -8,12 +8,13 @@ import App_useId from "./hook_example/App_useId";
 import App_useRef_1 from "./hook_example/App_useRef_1";
 import App_useRef_2 from "./hook_example/App_useRef_2";
 import App_useRef_3 from "./hook_example/App_useRef_3";
+import App_forwardRef from "./hook_example/forward_ref/App_forwardRef";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         {/*<App_useLayoutEffect/>*/}
-        <App_useRef_3/>
+        <App_forwardRef/>
     </React.StrictMode>
 );
 
