@@ -14,11 +14,12 @@ import App_useEffect from "./hook_example/useEffect/App_useEffect";
 import App_useEffect2 from "./hook_example/useEffect/App_useEffect2";
 import App_useMemo from "./hook_example/App_useMemo";
 import App_useReducer from "./hook_example/useReducer/App_useReducer";
+import App_useReducer02 from "./hook_example/useReducer/App_useReducer02";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App_useReducer />
+    <App_useReducer02 />
   </React.StrictMode>
 );
 
